@@ -3,7 +3,7 @@ import useCurrentLocation from '../utils/useCurrentLocation.js';
 
 const ApiComponent = () => {
 
-    const { latitude, longitude, error, loading } = useCurrentLocation();
+    const { latitude, longitude } = useCurrentLocation();
 
 
     // const fetchdata = async () => {

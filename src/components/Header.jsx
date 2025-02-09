@@ -1,19 +1,20 @@
 import React from 'react'
 import Title from './Title'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <div className='header'>
-        <Title />
+    <nav className='header'>
+      <NavLink to="/"><Title /></NavLink>
       <div className='nav-items'>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Cart</li>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/contact/10">Contact</NavLink>
+          <NavLink to="/cart">Cart</NavLink>
         </ul>
-      </div>  
-    </div>
+      </div>
+    </nav>
   )
 }
 
