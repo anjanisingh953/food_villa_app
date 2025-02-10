@@ -25,7 +25,7 @@ const Body = () => {
     setTimeout(() => {
       setAllRestaurant(finalresult);
       setFilteredData(finalresult)
-    }, 2000)
+    }, 200)
 
   }
 

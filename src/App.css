@@ -116,3 +116,110 @@
   text-decoration: none;
   color: black
 }
+
+
+/* menu page design start */
+.menu_page_container {
+  display: flex;
+}
+
+.restaurant_info {
+  min-height: 300px;
+  padding: 10px;
+  width: 400px;
+}
+
+.menu_info {
+
+  padding: 10px;
+  width: calc(100vw - 400px);
+}
+
+.restaurant_info {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.menu_card {
+  /* background-color: orange; */
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  position: sticky;
+  top: 0;
+}
+
+.menu_card img {
+  padding: 5px;
+  width: 280px;
+  height: 180px;
+  background-position: center center;
+}
+
+.menu_card h3 {
+  margin-top: 5px;
+  text-align: center !important;
+}
+
+
+.menu_info h3 {
+  font-style: oblique;
+  font-variant: small-caps;
+  position: sticky;
+  top: 0;
+  color: #fff;
+  padding: 5px 20px;
+  /* display: inline-block; */
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.menu_list_div {
+  display: flex;
+
+}
+
+.menu_list_div li {
+  margin: 1px 15px;
+}
+
+.menu_list_div button {
+  border: none;
+  background-color: #09f50965;
+  padding: 3px 8px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* menu page design end */
+/* cartItem page design end */
+.main_cart_item_div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart_item_card {
+  margin: 10px;
+  width: 200px;
+  margin-top: 5px;
+  box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.cart_item_card img {
+  width: 180px;
+  height: 120px;
+  margin: auto;
+}
+
+.clear_cart_btn {
+  background-color: #09f50965;
+  border: none;
+  padding: 5px 20px;
+}
+
+/* menu page design end */
